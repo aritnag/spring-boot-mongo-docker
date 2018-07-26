@@ -76,7 +76,7 @@ spec:
         run: spring-boot-mongo-docker
     spec: 
       containers: 
-        - image: aritranag/spring-boot-mongo-docker
+        - image: aritranag20/spring-boot-mongo-docker
           name: spring-boot-mongo-docker
           ports: 
             - containerPort: 8080
